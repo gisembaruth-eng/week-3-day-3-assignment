@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>News Headline Aggregator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>News Headlines</h1>
+
+        <div class="filters">
+            <button onclick="filterNews('all')">All</button>
+            <button onclick="filterNews('technology')">Technology</button>
+            <button onclick="filterNews('business')">Business</button>
+            <button onclick="filterNews('sports')">Sports</button>
+            <button onclick="filterNews('health')">Health</button>
+        </div>
+
+        <div id="loading"></div>
+        <div id="newsContainer"></div>
+    </div>
+
+    <script src="news.js"></script>
+</body>
+
+</html>
